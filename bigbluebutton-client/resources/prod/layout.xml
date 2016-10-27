@@ -4,9 +4,9 @@
     <window name="NotesWindow" hidden="true" width="0.7" height="1" x="0" y="0" draggable="false" resizable="false"/>
     <window name="TimerWindow" width="0.2" height="0.075" x="0" y="0" order="0"/>
     <window name="UsersWindow" width="0.2" height="0.25" x="0" y="0.075" order="0"/>
-    <window name="ChatWindow" width="0.2" height="0.2" x="0" y="0.325" order="0"/>
+    <window name="ChatWindow" width="0.2" height="0.25" x="0" y="0.325" order="0"/>
     <window name="BroadcastWindow" hidden="true" draggable="false" resizable="false"/>
-    <window name="VideoDock" width="0.2" height="0.475" x="0" y="0.6" order="0"/>
+    <window name="VideoDock" width="0.2" height="0.47" x="0" y="0.575" order="0"/>
     <window name="PresentationWindow" width="0.8" height="0.9946808510638298" x="0.20017366136034732" y="0" />
     <window name="ViewersWindow" hidden="true" draggable="false" resizable="false" />
     <window name="ListenersWindow" hidden="true" draggable="false" resizable="false"/>

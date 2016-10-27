@@ -32,6 +32,22 @@
 	<mate:Listener type="{StartTimerEvent.START_TIMER}" method="handleStartTimer" />
 	<mate:Listener type="{StopTimerEvent.STOP_TIMER}" method="handleStopTimer" />
 
+        <mx:Style>
+          .selectedStyle {
+              color: green;
+              textRollOverColor: white;
+              textSelectedColor: white;
+              themeColor: white;
+          }
+
+          .unselectedStyle {
+              color: red;
+              textRollOverColor: red;
+              textSelectedColor: red;
+              themeColor: red;
+          }
+        </mx:Style>
+
 	<mx:Script>
 		<![CDATA[ 
                         import com.hurlant.crypto.symmetric.AESKey;
@@ -106,6 +122,8 @@
 
 			private function onCreationComplete():void {
 		            dispatcher = new Dispatcher();
+
+			    counter.styleName = "selectedStyle";
 
                             stopwatch = new Timer(TIMER_INTERVAL);
                             stopwatch.addEventListener(TimerEvent.TIMER, updateTimer);
