@@ -267,7 +267,7 @@ global
 	
 	s|View.chatViewStyle
 	{
-		chatInputTextHeight:48;
+		chatInputTextHeight:32;
 		btnWidth:40;
 	}
 	

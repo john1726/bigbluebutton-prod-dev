@@ -104,6 +104,8 @@ with BigBlueButton; if not, If not, see <http://www.gnu.org/licenses/>.
 				<option value="English 108">English 108</option>
 				<option value="English 109">English 109</option>
 				<option value="English 110">English 110</option>
+				<option value="TuberEduSession">TuberEduSession</option>
+				<option value="TuberEduBorzu">TuberEduBorzu</option>
 			</select>
 		</div>
 		<div>
@@ -207,7 +209,7 @@ with BigBlueButton; if not, If not, see <http://www.gnu.org/licenses/>.
 			}
 		});
 	}
-	var meetingID="English 101,English 102,English 103,English 104,English 105,English 106,English 107,English 108,English 109,English 110";
+	 var meetingID="English 101,English 102,English 103,English 104,English 105,English 106,English 107,English 108,English 109,English 110,TuberEduSession,TuberEduBorzu";
 	$(document).ready(function(){
 		isRunningMeeting("English 232");
 		$("#formcreate").validate();
@@ -263,7 +265,7 @@ with BigBlueButton; if not, If not, see <http://www.gnu.org/licenses/>.
 		//
 		// This is the URL for to join the meeting as moderator
 		//
-		String welcomeMsg = "<br>Welcome to %%CONFNAME%%!<br><br>For help see our <a href=\"event:http://www.bigbluebutton.org/content/videos\"><u>tutorial videos</u></a>.<br><br>To join the voice bridge for this meeting click the headset icon in the upper-left <b>(you can mute yourself in the Listeners window)</b>.<br><br>This meeting is being recorded.";
+		String welcomeMsg = "";
 		String joinURL = getJoinURL(username, meetingID, "true", welcomeMsg, metadata, null);
 		if (joinURL.startsWith("http://") || joinURL.startsWith("https://")) {
 %>

@@ -34,7 +34,7 @@
 
         <mx:Style>
           .selectedStyle {
-              color: green;
+              color: white;
               textRollOverColor: white;
               textSelectedColor: white;
               themeColor: white;
