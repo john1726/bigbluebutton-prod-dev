@@ -199,7 +199,7 @@ DataGrid {
 
 .whiteboardUndoButtonStyle, .whiteboardCircleButtonStyle, .whiteboardClearButtonStyle,
 .whiteboardTriangleButtonStyle, .whiteboardTextButtonStyle, .whiteboardRectangleButtonStyle,
-.whiteboardPanZoomButtonStyle, .whiteboardLineButtonStyle, .whiteboardScribbleButtonStyle
+.whiteboardPanZoomButtonStyle, .whiteboardLineButtonStyle, .whiteboardEraserButtonStyle, .whiteboardScribbleButtonStyle
 {
   textIndent: 0;
   paddingLeft: 0;
@@ -237,6 +237,10 @@ DataGrid {
 
 .whiteboardLineButtonStyle {
   icon: Embed('assets/images/line.png');    
+}
+
+.whiteboardEraserButtonStyle {
+  icon: Embed('assets/images/eraser.png');    
 }
 
 .whiteboardPanZoomButtonStyle {

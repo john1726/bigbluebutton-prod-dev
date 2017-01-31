@@ -167,6 +167,10 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
                         lineBtn.setTool(graphicType, toolType);
                     }
                     
+                    if (eraserBtn != null) {
+                        eraserBtn.setTool(graphicType, toolType);
+                    }
+
                     if (textBtn != null) {
                         textBtn.setTool(graphicType, toolType);
                     }
@@ -332,7 +336,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 	</mx:Script>
 	
 	<common:TabIndexer startIndex="{wbOptions.baseTabIndex}"
-					   tabIndices="{[panzoomBtn, scribbleBtn, rectangleBtn, circleBtn, triangleBtn, lineBtn, textBtn, clearBtn, undoBtn, cpik, sld]}"/>
+					   tabIndices="{[panzoomBtn, scribbleBtn, rectangleBtn, circleBtn, triangleBtn, lineBtn, textBtn, clearBtn, undoBtn, eraserBtn, cpik, sld]}"/>
 	
 	<!-- Now, every 'tool' has two types of identifiers, one is found in WhiteboardConstants
 	that identifies the "category" of the tool (ex. shape vs text), and the other specifies the 
@@ -340,7 +344,7 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 	-->
     <wbBtns:PanZoomButton id="panzoomBtn" 
     					  visible="{showWhiteboardToolbar}"/>
-    <mx:Spacer height="10" visible="{showWhiteboardToolbar}"/>
+    <mx:Spacer height="12" visible="{showWhiteboardToolbar}"/>
 	<wbBtns:ScribbleButton id="scribbleBtn" 
 						   visible="{showWhiteboardToolbar}"/>
 	<wbBtns:RectangleButton id="rectangleBtn" 
@@ -359,6 +363,8 @@ with BigBlueButton; if not, see <http://www.gnu.org/licenses/>.
 						visible="{showWhiteboardToolbar}"/>
 	<wbBtns:UndoButton id="undoBtn" 
 					   visible="{showWhiteboardToolbar}"/>
+        <wbBtns:EraserButton id="eraserBtn" 
+                                visible="{showWhiteboardToolbar}"/>
 	
 	<mx:Spacer height="5" visible="{showWhiteboardToolbar}"/>
 	

@@ -60,6 +60,8 @@ package org.bigbluebutton.modules.whiteboard.business.shapes
             return new Ellipse(a.id, a.type, a.status);
         }  else if (a.type == DrawObject.LINE) {
             return new Line(a.id, a.type, a.status);
+        }  else if (a.type == DrawObject.ERASER) {
+            return new Pencil(a.id, a.type, a.status);
         }  else if (a.type == DrawObject.TRIANGLE) {
             return new Triangle(a.id, a.type, a.status);
         }  else if (a.type == DrawObject.POLL) {
@@ -78,6 +80,8 @@ package org.bigbluebutton.modules.whiteboard.business.shapes
         return new EllipseAnnotation(shape, color, thickness, trans);
       } else if (type == DrawObject.LINE){
         return new LineAnnotation(shape, color, thickness, trans);
+      } else if (type == DrawObject.ERASER){
+        return new EraserDrawAnnotation(shape, color, thickness, trans);
       } else if (type == DrawObject.TRIANGLE){
         return new TriangleAnnotation(shape, color, thickness, trans);
       }
