@@ -3,8 +3,8 @@
   <layout name="One on One Layout" default="true">
     <window name="NotesWindow" hidden="true" width="0.7" height="1" x="0" y="0" draggable="false" resizable="false"/>
     <window name="UsersWindow" width="0.2" height="0.28" x="0" y="0.0" order="0"/>
-    <window name="ChatWindow" width="0.2" height="0.224" x="0" y="0.275" order="0"/>
-    <window name="VideoDock" width="0.2" height="0.50" x="0" y="0.51" order="0"/>
+    <window name="ChatWindow" width="0.2" height="0.20" x="0" y="0.28" order="0"/>
+    <window name="VideoDock" width="0.2" height="0.45" x="0" y="0.55" order="0"/>
     <window name="BroadcastWindow" hidden="true" draggable="false" resizable="false"/>
     <window name="PresentationWindow" width="0.8" height="0.9946808510638298" x="0.20017366136034732" y="0" />
     <window name="ViewersWindow" hidden="true" draggable="false" resizable="false" />
@@ -14,9 +14,9 @@
     <window name="NotesWindow" hidden="true" width="0.7" height="1" x="0" y="0" draggable="false" resizable="false"/>
     <window name="BroadcastWindow" hidden="true" draggable="false" resizable="false"/>
     <window name="PresentationWindow" width="0.6637481910274964" height="0.9946808510638298" x="0.18017366136034732" y="0" />
-    <window name="VideoDock" width="0.1772793053545586" height="0.58351063829787234" x="0" y="0.5585" minWidth="280" />
+    <window name="VideoDock" width="0.1772793053545586" height="0.74351063829787234" x="0" y="0.2545212765957446" minWidth="280" />
     <window name="UsersWindow" width="0.1531837916063676" height="0.9960106382978723" x="0.8468162083936325" y="0" />
-    <window name="ChatWindow" width="0.1772793053545586" height="0.5545212765957446" x="0" y="0.0" minWidth="280" />
+    <window name="ChatWindow" width="0.1772793053545586" height="0.2045212765957446" x="0" y="0.0" minWidth="280" />
     <window name="ViewersWindow" width="0.1772793053545586" height="0.33643617021276595" x="0" y="0" />
     <window name="ListenersWindow" width="0.1772793053545586" height="0.33643617021276595" x="0" y="0.34308510638297873" />
   </layout>
